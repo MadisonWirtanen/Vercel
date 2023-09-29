@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "https://www.google.com/" }
+    { "source": "/:match", "destination": "https://www.google.com/:match" }
   ]
 }
