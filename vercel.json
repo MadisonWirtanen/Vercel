@@ -1,5 +1,6 @@
 {
-  "redirects": [
-    { "source": "/:match", "destination": "https://www.google.com/:match" }
+  "rewrites": [
+    { "source": "/:url*", "destination": "https://www.google.com/:url*" },
+    { "source": "/:url*/", "destination": "https://www.google.com/:url*/" }
   ]
 }
