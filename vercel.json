@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/:url*", "destination": "https://www.google.com/:url*" },
-    { "source": "/:url*/", "destination": "https://www.google.com/:url*/" }
+    { "source": "/:url*", "destination": "https://ipv6.ykwang.top:2083/:url*" },
+    { "source": "/:url*/", "destination": "https://ipv6.ykwang.top:2083/:url*/" }
   ]
 }
