@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     { "source": "/:match", "destination": "https://www.google.com/:match" }
   ]
 }
