@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/:url*", "destination": "https://ipv6.ykwang.top:2083/:url*" },
-    { "source": "/:url*/", "destination": "https://ipv6.ykwang.top:2083/:url*/" }
+    {"source": "/(.*)", "destination": "https://github.com/$1"}
   ]
 }
